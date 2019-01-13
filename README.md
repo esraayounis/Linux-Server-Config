@@ -9,9 +9,14 @@ install and configure a database server, and deploy [Catalog](https://github.com
 
 - **Server IP Address:** 157.230.128.59
 - **SSH server access port:** 2200
-- **SSH login username:** grader
+- **SSH password of grader username:** grader
 - **Application URL:** http://157.230.128.59.xip.io
-- **PassPhase:** hello
+- **Login as grader:** grader@157.230.128.59 -p 2200 -i ~/.ssh/item
+- **passphrase for key '/c/Users/Esra/.ssh/item':** hello
+- **SSH Key Content:**
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDwMiWDHN/7gLC+rguzA9lMjcK+XpdHNhxMgpR88pym91weKlHu1QS/u4Azrz9NN4Gh4/O5TA/+T0qAoPG/Tc41Vqx2Q392mFKYBv0PdT9/InOxzO8l1J7rDfQEOl+Yu1UjOJXR7MKz3qSuQwot9ev9LdIhUS9BKA8A4RVmfa+Et3u4yhdYk8zHkpa/nuaj8wuuHF8v/5IXENY1rl7uJ2n0D6Yq9M3SXF/TANANT6Vmqo7LfvulKCVm1FqKqae8O3G2VAnx4fA+002chhY3aWHP3md6NhrJUhHlbZD2G/2cd/3o9G03rN/ghDQ2bf3w43dF8un80S/Vxzcu6DYhqcFH Esra@EsOo
+```
 
 
 
@@ -67,8 +72,10 @@ You now have a public and private key that you can use to authenticate. The publ
 
 4. Choose a preferred size. In this project, I have chosen the **1GB/1 vCPU/25GB** configuration.
 
-5. In the section **Add Your SSH Keys**, paste the content of your public key, `udacity_project.pub`:
-
+5. In the section **Add Your SSH Keys**, paste the content of your public key, `item.pub`:
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDwMiWDHN/7gLC+rguzA9lMjcK+XpdHNhxMgpR88pym91weKlHu1QS/u4Azrz9NN4Gh4/O5TA/+T0qAoPG/Tc41Vqx2Q392mFKYBv0PdT9/InOxzO8l1J7rDfQEOl+Yu1UjOJXR7MKz3qSuQwot9ev9LdIhUS9BKA8A4RVmfa+Et3u4yhdYk8zHkpa/nuaj8wuuHF8v/5IXENY1rl7uJ2n0D6Yq9M3SXF/TANANT6Vmqo7LfvulKCVm1FqKqae8O3G2VAnx4fA+002chhY3aWHP3md6NhrJUhHlbZD2G/2cd/3o9G03rN/ghDQ2bf3w43dF8un80S/Vxzcu6DYhqcFH Esra@EsOo
+```
 
    This step will automatically create the file `~/.ssh/authorized_keys` with appropriate permissions and add your public key to it. It would also add the following rule in the `/etc/ssh/sshd_config` file automatically:
 
@@ -129,7 +136,7 @@ This will update all the packages. If the available update is a kernel update, y
    This will take you back to your host machine. After you are back to your local machine, run:
 
    ```
-   $ ssh root@157.230.128.59 -p 2200  -i ~/.ssh/id-rsa
+   $ ssh root@157.230.128.59 -p 2200  -i ~/.ssh/item
    ```
    
    You should now be able to log in to the server as `root` on port 2200. The `-p` option explicitly tells at what port the SSH server operates on. It now no more operates on port number 22. 
