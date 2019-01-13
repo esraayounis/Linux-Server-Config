@@ -13,9 +13,40 @@ install and configure a database server, and deploy [Catalog](https://github.com
 - **Application URL:** http://157.230.128.59.xip.io
 - **Login as grader:** grader@157.230.128.59 -p 2200 -i ~/.ssh/item
 - **passphrase for key '/c/Users/Esra/.ssh/item':** hello
-- **SSH Key Content:**
+- **SSH Private-Key Content:**
 ```
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDwMiWDHN/7gLC+rguzA9lMjcK+XpdHNhxMgpR88pym91weKlHu1QS/u4Azrz9NN4Gh4/O5TA/+T0qAoPG/Tc41Vqx2Q392mFKYBv0PdT9/InOxzO8l1J7rDfQEOl+Yu1UjOJXR7MKz3qSuQwot9ev9LdIhUS9BKA8A4RVmfa+Et3u4yhdYk8zHkpa/nuaj8wuuHF8v/5IXENY1rl7uJ2n0D6Yq9M3SXF/TANANT6Vmqo7LfvulKCVm1FqKqae8O3G2VAnx4fA+002chhY3aWHP3md6NhrJUhHlbZD2G/2cd/3o9G03rN/ghDQ2bf3w43dF8un80S/Vxzcu6DYhqcFH Esra@EsOo
+$ cat ~/.ssh/item
+
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,2685FD006AD2AC88B64F7737DB938F09
+
++rZ/vSaUzpdzZxTCen2+D8ltkOuCeqIAZkL63onwXQXsSZrDPu1xLUEy1CNFSPBH
+QYzVODsRCm/Ugqg7IOQP7wKrgtQ8jLu3bRzdm5ozDNFcpz6dq/ALXSduACnZ+Qdn
+cr3gV4v2wp03Jdz9AyxMpvesV0A5Rg3n/J7w3zwXZ5EhJhdK8ce0HN9uiKJKeKq5
+WfzdPAjQ/blJLSG4KaFGrOZ6e2wM7lNvvdke1kmWXmNUcUE3MIT/HPR4ARIZpAd5
+DHaicakiSE1A2lkNbs3JCb+ImJrS4XY8euDzk1JGi9+FDa7Co9I7bpT1WjDdWbsM
+hF9quWplwJR/sa3j2HOLA/0kiKQ5hfozPKYCs2p7lcW+MVuHW8evDEirDpXofpKX
+I0TrRBDF9O8TMf3xa7RaW1GuTHhYVgiWps7wI3ELjrdKtZ6DR8Kk4K1V7jRas4Iv
+E0qLLjO8lHFkL/944EsstkpuwQFrnpJSdc4j8L9x6pWv/QKl9bkAnt7ECwRwtEgx
+HXFUOBMT4TuorJv6cCjgsyX4dHH/EbuIbHDs3d7ccCzPUSh2VOSIl4ofYDAXB8Ps
+Sh7O4bj13TtU7s/xNPLPkI2ywZp2PLPJvXjnxSAofUApmQjrs2jXk0id+0pC1Fwm
+nRCr17pe5v9ehexZsWBSyr0aO6vBvIraxWzXwJd7CglLDUMEbck4XxkHSmOFE1JQ
+2/Euq7wZhLpAXnKOlCLQmzHb6DkRmtrykwOzCHh9QLZd52plJAn18z8gW0ggywKD
+H/t9ZXIzGPQ5Oed0aCefXPmjDORI1QRmkMJBd9M5pfheeQ7f3g7lyTON/XhVuRMl
+ZNIOfT6T+5rqM+vtJJx1Iok6fGvr9BBReMyuvsSvbcpYVGs71lfI7CCB7li2K5NL
+6y+oEhjtizfbPKdzrVPts1W93inwHMw+Y+r98GYvSYsgnY4uJpFitLOm9yK6DcsQ
+RM75i9Tp8SZMNJT3NU0h+7tTlj3ODzRyqnYmkIX0H/LHaUUtf9v3MAyDMwg3b1ge
+Um4q23Hsa1F3IrRWbm/79H3IWGurr8isaOZ7cMiudVgOStPHwSEuOSNM7JBnYlFx
+UjnaC5Mppjuy2sli1Dz/SZM31w8wLysha2XWq02bez3116wR7obFp7w/uulbylY9
+JNCEZfbEccBj9JLo/VB9Yb/W70joIlyXCXBsNPQoW0khDk9z3eNuIy36PBQVoadv
+72vzmNhrJYidZLOjqcaZqye8iH8xigCWngKUtYmuTdjKEsBmq4kMYs/YEb5D/0TL
+hFtAm4hzLrhDt3EBYi7R+DnFeNXNLbmQ7soqMws3V7znXrW4cob9ofhsc1/F14Nl
+E8khWBTNaRcPNmPFeSg5fcXNcG1WkL2FcPbdu8yHygBcds/0LUNwrTUwbWHtiPCE
+K8uKCe6MUa9os2Coihs1jGN+ZU3cqyOOifYxp/eepe88d1kcHyegnODzyR11kbik
+c24esScpXUaYikBw0lJcTOzrMtvah7GQqVsf8+U9+VG/wlpaS8L4jrqmgr8vZjS3
+WZHeYzWC8FJajzVYuOklvyisy85BhY5pk6Oa7pr0p/gHG90uO9KiY441d4ltdmtt
+-----END RSA PRIVATE KEY-----
 ```
 
 
